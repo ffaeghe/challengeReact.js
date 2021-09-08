@@ -1,0 +1,42 @@
+// 
+// _card.scss
+// 
+
+.card {
+  margin-bottom: $grid-gutter-width;
+  box-shadow: $box-shadow;
+  //background-color: $bgGray;
+}
+
+.card-drop {
+  color: $body-color;
+}
+
+.card-title {
+  font-size: 15px;
+  margin: 0 0 7px 0;
+  font-weight: $font-weight-semibold;
+  color: $silver;
+}
+
+.card-title-desc {
+  color: $card-title-desc;
+  margin-bottom: 24px;  
+}
+.btnLogin {
+  margin: 28px 0 14px;
+}
+.boxError {
+  background-color: #efdfdf;
+  border: 1px solid #efdfdf;
+  padding: 11px 13px 14px 23px;
+  border-radius: 3px;
+}
+.txtError {
+  color: #9f4f48;
+  font-size: 11px;
+}
+.closeError{
+  color: #cbbebf;
+}
+
